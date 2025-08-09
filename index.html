@@ -22,23 +22,23 @@
         <div id="container">
 
             <!-- Main headers -->
-            <h1>Generate a</h1>
-            <h1>random password</h1>
-            <h6>Never use an insecure password again.</h6>
+            <h1 class="white">Generate a</h1>
+            <h1 class="green-light">random password</h1>
+            <h6 class="grey">Never use an insecure password again.</h6>
             
             <!-- Generate button -->
-            <button id="generate-password">Generate passwords</button>
+            <button onclick="generate()" class="white" id="generate-password">Generate passwords</button>
 
             <!-- Divider -->
             <hr id="divider">
 
             <!-- Passwords -->
-            <div>
-                <div id="password-one"></div>
-                <div id="password-two"></div>
+            <div id="passwords">
+                <div class="green" id="password-one">              </div>
+                <div class="green" id="password-two">              </div>
             </div>
 
         </div>
-
+        <script src="index.js"></script>
     </body>    
 </html>

@@ -1,0 +1,128 @@
+/* all elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    line-height: 1;
+}
+
+
+/* headings */
+h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 4rem;
+    margin-left: 20rem;
+}
+
+h6 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin:1.5rem 0 0 20rem;
+}
+
+
+/* color elements */
+.green-light {
+    color: #4ADF86;
+}
+
+.green {
+    color: #55F991;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.grey {
+    color: #D5D4D8;
+}
+
+
+/* body */
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1C1C1C;
+}
+
+
+/* container */
+#container {
+    width: 80vw;
+    height: 80vh;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* button for generator */
+#generate-password {
+    background: #10B981;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.3rem;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    margin: 3rem 0 0.2rem 20rem;
+    padding: 1rem 1.4rem;
+    text-align: center;
+}
+
+#generate-password:hover {
+    cursor: pointer;
+    background: #4ADF86;
+}
+
+#generate-password:active {
+    cursor: pointer;
+    background: #55F991;
+}
+
+#divider {
+    border: none;
+    background-color: #2F3E53;
+    height: 0.16rem;
+    margin: 2rem 20rem;
+    width: 45%;
+}
+
+#passwords {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#password-one {
+    background: #2F3E53;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    padding: 1rem 1.4rem;
+    margin-left: 20rem;
+    text-align: center;
+}
+
+#password-two {
+    background: #2F3E53;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    padding: 1rem 1.4rem;
+    margin-left: 2rem;
+    text-align: center;
+}
